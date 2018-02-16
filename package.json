@@ -1,0 +1,27 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clark535/mywebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clark535/mywebsite/issues"
+  },
+  "homepage": "https://github.com/clark535/mywebsite#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "pg": "^7.4.1"
+  }
+}
