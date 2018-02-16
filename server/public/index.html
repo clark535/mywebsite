@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--- links -->
+  <link rel="stylesheet" href="styles/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <!--- script sources -->
+  <script type="text/javascript" src="vendors/angular/angular.min.js"></script>
+  <script type="text/javascript" src="vendors/angular-route/angular-route.min.js"></script>
+  <script type="text/javascript" src="scripts/client.js"></script>
+</head>
+
+<body ng-app="myApp">
+  <a href="/">Home</a>
+  <a ng-href="#!biography">Bio</a>
+  <a ng-href="#!resume">Resume</a>
+  <ng-view></ng-view>
+</body>
+</html>
