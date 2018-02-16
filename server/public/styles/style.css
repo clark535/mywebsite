@@ -4,3 +4,47 @@
     background-attachment: fixed;
     background-size: cover;
 }
+
+.name {
+    color: white;
+    font-size: 70px;
+    position: center;
+}
+
+.name-column {
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.links-div {
+    font-size: 40px;
+    margin-left: 60px;
+}
+
+.links {
+    margin-right: 25px;
+    margin-left: 25px;
+    color: azure;
+}
+
+.word-slide {
+    position: absolute;
+    left: -600px;
+    width: 100px;
+    height: 100px;
+    color: white;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
