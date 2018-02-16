@@ -24,7 +24,7 @@ myApp.controller('HomeController', function() {
     self.homeMessage = 'Home Page Message';
     var msg = new SpeechSynthesisUtterance('Dave Clark');
         var voices = window.speechSynthesis.getVoices();
-        msg.voice = voices[25]; // Note: voices are unpredictable at the moment, still experimental tech. 7 is the clearest male, 17 the clearest female, 25 is good
+        msg.voice = voices[7]; // Note: voices are unpredictable at the moment, still experimental tech. 7 is the clearest male, 17 the clearest female, 25 is good
         msg.voiceURI = 'native';
         msg.volume = 2; // 0 to 1
         msg.rate = .8; // 0.1 to 10

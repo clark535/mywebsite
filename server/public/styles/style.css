@@ -6,7 +6,10 @@
 }
 
 .name {
-    color: white;
+    font-size: 72px;
+    background: -webkit-linear-gradient(gold, silver);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 70px;
     position: center;
 }
@@ -32,7 +35,7 @@
     left: -600px;
     width: 100px;
     height: 100px;
-    color: white;
+    color: rgb(158, 157, 157);
     -webkit-animation: slide 0.5s forwards;
     -webkit-animation-delay: 2s;
     animation: slide 0.5s forwards;
