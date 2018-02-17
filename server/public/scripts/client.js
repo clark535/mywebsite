@@ -36,7 +36,22 @@ myApp.controller('HomeController', function() {
 myApp.controller('BiographyController', function() {
     console.log('Biography Controller was Loaded');
     var self = this;
-    self.bioMessage = 'Bio Page Message';
+    self.bioWork = `I had six great years with Comcast on their Loyalty Support Central team in the Minnetonka Center of Excellence. This was an in-house technical support team specializing in order entry software issues and advising agents on active calls. Some of my duties through the years consisted of: 
+    Leading several Special Project teams including the UPS fall out and Retention leads projects.
+    Created/updated daily floor support schedules using excel and forecasted staffing data. 
+    Created, compiled and distributed daily support issue reports to leadership.
+    Resolved thousands of order entry/billing issues through CSG/ACSR software expertise.
+    Worked with management on dozens of projects to resolve and improve Loyalty operations.
+    Created, compiled and distributed multiple recurring excel based reports to leadership. 
+    I also gained a strong aptitude for customer support and team work.
+    It was a pleasure working for Comcast and I truly appreciate everything the company did for me and my family.`;
+    self.bioWork2 = `I taught English in elementary and Junior high schools in western Japan. 
+    My responsibilities included speech and pronunciation in front of the class, running games and English related activities. 
+    Participation in sports and school extracurricular activities, English club and tutoring. 
+    I was also involved in daily lesson planning with the rest of the English faculty.`
+    self.bioTravel = 'Bio Page travel description';
+    self.bioHobbies = 'Bio Page hobbies description';
+
 });
 
 myApp.controller('ResumeController', function() {

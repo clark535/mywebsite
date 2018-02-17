@@ -1,3 +1,4 @@
+/* Home page styling */
 .home-background {
     background-image: url('/images/stars-website.jpg');
     background-repeat: no-repeat;
@@ -6,11 +7,10 @@
 }
 
 .name {
-    font-size: 72px;
+    font-size: 90px;
     background: -webkit-linear-gradient(gold, silver);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 70px;
     position: center;
 }
 
@@ -116,4 +116,40 @@
 .s-3{
   animation-duration:20s;
   top:90%;
+}
+/* End Home page styling */
+
+#bio-background {
+    background: linear-gradient(black, darkblue);
+    background-size: cover;
+}
+
+.bioParagraphs {
+    color: white;
+}
+
+.workTextBlock {
+    display: inline-block;
+    width: 450px;
+    height: 75px;
+    margin-top: 10px;
+}
+.workTextBlock2 {
+    display: inline-block;
+    width: 450px;
+    height: 75px;
+    margin-top: 10px;
+}
+
+.travelTextBlock {
+    margin-left: 500px;
+}
+
+.workImage {
+    margin-left: 600px;
+    margin-top: -400px;
+}
+
+.hobbiesImage {
+    margin-left: 600px;
 }
